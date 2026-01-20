@@ -734,9 +734,9 @@ const AppLayout: React.FC = () => {
             January 23-25, 2026
           </div>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-            2026 Lake Chelan
+          2026 Central Nebraska 
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
-              Winterfest
+             Home and Builders Show
             </span>
           </h1>
           <p className="text-xl text-blue-200 max-w-2xl mx-auto mb-8">
