@@ -170,9 +170,9 @@ const AppLayout: React.FC = () => {
   const ELECTRICITY_FEE = 38;
 
   const eventDays = [
-    { id: 'friday', label: 'Friday, Jan 16', hours: '5:00 PM – 10:00 PM' },
-    { id: 'saturday', label: 'Saturday, Jan 17', hours: '10:00 AM – 10:00 PM' },
-    { id: 'sunday', label: 'Sunday, Jan 18', hours: '11:00 AM – 3:00 PM' },
+    { id: 'friday', label: 'Friday, Jan 23', hours: '4:00 PM – 10:00 PM' },
+    { id: 'saturday', label: 'Saturday, Jan 24', hours: '10:00 AM – 6:00 PM' },
+    { id: 'sunday', label: 'Sunday, Jan 25', hours: '10:00 AM – 3:00 PM' },
   ];
 
   const paymentMethods: PaymentMethod[] = [
