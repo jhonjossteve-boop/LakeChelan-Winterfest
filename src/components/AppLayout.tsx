@@ -570,7 +570,7 @@ const AppLayout: React.FC = () => {
                     {reg.payment_status === 'pending' && (
                       <div className="mt-4 bg-amber-50 border border-amber-200 rounded-lg p-3">
                         <p className="text-amber-800 text-sm">
-                          <strong>Reminder:</strong> Please complete your payment and send proof to <strong>palmdesertfair@email.com</strong>
+                          <strong>Reminder:</strong> Please complete your payment and send proof to <strong>CentralNebraska@email.com</strong>
                         </p>
                       </div>
                     )}
@@ -654,11 +654,11 @@ const AppLayout: React.FC = () => {
                     After completing your Zelle payment, please send a screenshot or confirmation to:
                   </p>
                   <button
-                    onClick={() => copyToClipboard('palmdesertfair@email.com', 'proof')}
+                    onClick={() => copyToClipboard('CentralNebraska@email.com', 'proof')}
                     className="mt-2 bg-amber-200 text-amber-800 px-4 py-2 rounded-lg font-medium flex items-center gap-2 hover:bg-amber-300 transition-colors"
                   >
                     <EmailIcon />
-                    palmdesertfair@email.com
+                    CentralNebraska@email.com
                     <CopyIcon />
                     {copied === 'proof' && <span className="text-xs">Copied!</span>}
                   </button>
@@ -669,7 +669,7 @@ const AppLayout: React.FC = () => {
             <button
               onClick={() => {
                 setShowPaymentModal(false);
-                showNotificationMsg('Once payment is made, send proof to palmdesertfair@email.com for confirmation.', 'warning');
+                showNotificationMsg('Once payment is made, send proof to CentralNebraska@email.com for confirmation.', 'warning');
               }}
               className="w-full bg-purple-600 text-white py-4 rounded-xl font-semibold hover:bg-purple-700 transition-colors"
             >
@@ -865,7 +865,7 @@ const AppLayout: React.FC = () => {
                   <h4 className="font-bold text-amber-800 mb-2">Next Steps:</h4>
                   <ol className="list-decimal list-inside space-y-2 text-amber-700">
                     <li>Complete your payment via Zelle to <strong>Fernandes.joanab@gmail.com</strong></li>
-                    <li>Send payment proof to <strong>palmdesertfair@email.com</strong></li>
+                    <li>Send payment proof to <strong>CentralNebraska@email.com</strong></li>
                     <li>Include your confirmation number: <strong>{confirmationNumber}</strong></li>
                     <li>Receive your booth map and loading setup instructions</li>
                   </ol>
@@ -1282,7 +1282,7 @@ const AppLayout: React.FC = () => {
                           <div>
                             <p className="font-semibold text-amber-800">Payment Confirmation Required</p>
                             <p className="text-amber-700 text-sm mt-1">
-                              After completing payment, send proof to <strong>palmdesertfair@email.com</strong> to receive your booth map and setup instructions.
+                              After completing payment, send proof to <strong>CentralNebraska@email.com</strong> to receive your booth map and setup instructions.
                             </p>
                           </div>
                         </div>
@@ -1357,7 +1357,7 @@ const AppLayout: React.FC = () => {
               <ul className="space-y-2 text-gray-400">
                 <li className="flex items-center gap-2">
                   <EmailIcon />
-                  palmdesertfair@email.com
+                  CentralNebraska@email.com
                 </li>
               </ul>
             </div>
