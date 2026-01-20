@@ -1347,9 +1347,9 @@ const AppLayout: React.FC = () => {
                 </li>
                 <li className="flex items-center gap-2">
                   <LocationIcon />
-                  102 East Johnson Avenue
+                  Fonner Park Campus
                 </li>
-                <li>Chelan, WA 98816</li>
+                <li>Grand Island, NE 68801</li>
               </ul>
             </div>
             <div>
