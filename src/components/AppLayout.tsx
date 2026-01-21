@@ -658,7 +658,7 @@ const AppLayout: React.FC = () => {
                     className="mt-2 bg-amber-200 text-amber-800 px-4 py-2 rounded-lg font-medium flex items-center gap-2 hover:bg-amber-300 transition-colors"
                   >
                     <EmailIcon />
-                    CentralNebraska@email.com
+                    CentralNebraska@email.com / 831 221-8866
                     <CopyIcon />
                     {copied === 'proof' && <span className="text-xs">Copied!</span>}
                   </button>
